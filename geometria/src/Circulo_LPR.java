@@ -7,7 +7,12 @@ public class Circulo_LPR extends FiguraGeometrica_LPR {
 	public Circulo_LPR(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if(r<0)
+        {
+            return r=-1*r;} 
 	}
+	
+	
 
 	@Override
 	public double area() {
