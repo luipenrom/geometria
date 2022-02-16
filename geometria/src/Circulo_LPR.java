@@ -1,3 +1,4 @@
+
 public class Circulo_LPR extends FiguraGeometrica_LPR {
 	private double radio;
 	//Constante pi
@@ -6,13 +7,7 @@ public class Circulo_LPR extends FiguraGeometrica_LPR {
 	public Circulo_LPR(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
-		}
-	
-	public double Radiopos(double r) {
-		if (r<0);
-		return -r;
 	}
-	
 
 	@Override
 	public double area() {
@@ -24,4 +19,5 @@ public class Circulo_LPR extends FiguraGeometrica_LPR {
 	public double perimetro() {
 		return radio * 2 * PI;
 	}
+
 }
