@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="__z-j0I9MEeyPPqh6VCjJrQ" name="model">
+    <eAnnotations xmi:id="__6KEUI9MEeyPPqh6VCjJrQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="__6KEUY9MEeyPPqh6VCjJrQ" source="codegen">
+        <details xmi:id="__6KEUo9MEeyPPqh6VCjJrQ" key="codegenDirectory" value="/geometria/src"/>
+        <details xmi:id="_ABnXMI9NEeyPPqh6VCjJrQ" key="AssociatedSourceCode" value="/geometria/src/Circulo_LPR.java;4058247528/1;/geometria/src/FiguraGeometrica_LPR.java;1721477972/1;/geometria/src/Rectangulo_LPR.java;2696842896/1;/geometria/src/Triangulo_LPR.java;3188637849/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="___geYI9MEeyPPqh6VCjJrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="___geYY9MEeyPPqh6VCjJrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="___geYo9MEeyPPqh6VCjJrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="___geY49MEeyPPqh6VCjJrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="___geZI9MEeyPPqh6VCjJrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="___hFcI9MEeyPPqh6VCjJrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="___hFcY9MEeyPPqh6VCjJrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="___hFco9MEeyPPqh6VCjJrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="___hsgI9MEeyPPqh6VCjJrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="___fQQI9MEeyPPqh6VCjJrQ" name="Circulo_LPR">
+      <generalization xmi:id="_AADQ8I9NEeyPPqh6VCjJrQ" general="___lW4I9MEeyPPqh6VCjJrQ"/>
+      <ownedAttribute xmi:id="_AAFtMI9NEeyPPqh6VCjJrQ" name="radio" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AAGUQY9NEeyPPqh6VCjJrQ" name="PI" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_AAG7UI9NEeyPPqh6VCjJrQ" value="3.1416"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AAKlsI9NEeyPPqh6VCjJrQ" name="Circulo_LPR" specification="___iTkI9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AAKlsY9NEeyPPqh6VCjJrQ" name="r">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AAKlso9NEeyPPqh6VCjJrQ" name="tipoFigura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AAKls49NEeyPPqh6VCjJrQ" type="___fQQI9MEeyPPqh6VCjJrQ" direction="return"/>
+        <language>java</language>
+        <body>super(tipoFigura);&#xD;
+		radio = r;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AALMwI9NEeyPPqh6VCjJrQ" name="area" specification="___i6oI9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AALMwY9NEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return radio * radio * PI;&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AALMwo9NEeyPPqh6VCjJrQ" name="perimetro" specification="___kIwI9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AALMw49NEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return radio * 2 * PI;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="___iTkI9MEeyPPqh6VCjJrQ" name="Circulo_LPR" method="_AAKlsI9NEeyPPqh6VCjJrQ">
+        <eAnnotations xmi:id="___iTk49MEeyPPqh6VCjJrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="___iTlI9MEeyPPqh6VCjJrQ" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="___iTkY9MEeyPPqh6VCjJrQ" name="r">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="___iTko9MEeyPPqh6VCjJrQ" name="tipoFigura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="___iTlY9MEeyPPqh6VCjJrQ" type="___fQQI9MEeyPPqh6VCjJrQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="___i6oI9MEeyPPqh6VCjJrQ" name="area" method="_AALMwI9NEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="___i6oY9MEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="___kIwI9MEeyPPqh6VCjJrQ" name="perimetro" method="_AALMwo9NEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="___kIwY9MEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="___lW4I9MEeyPPqh6VCjJrQ" name="FiguraGeometrica_LPR" isAbstract="true">
+      <ownedAttribute xmi:id="_AAG7UY9NEeyPPqh6VCjJrQ" name="tipoFigura" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AALMxI9NEeyPPqh6VCjJrQ" name="FiguraGeometrica_LPR" specification="___mlAI9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AALMxY9NEeyPPqh6VCjJrQ" name="tipoFigura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AALMxo9NEeyPPqh6VCjJrQ" type="___lW4I9MEeyPPqh6VCjJrQ" direction="return"/>
+        <language>java</language>
+        <body>super();&#xD;
+		this.tipoFigura = tipoFigura;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AALz0I9NEeyPPqh6VCjJrQ" name="getTipoFigura" specification="___nzII9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AALz0Y9NEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return tipoFigura;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AALz0o9NEeyPPqh6VCjJrQ" name="setTipoFigura" specification="___oaMI9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AALz049NEeyPPqh6VCjJrQ" name="tipoFigura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.tipoFigura = tipoFigura;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AALz1I9NEeyPPqh6VCjJrQ" name="semiPerimetro" specification="___oaMo9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AALz1Y9NEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.perimetro() / 2;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="___mlAI9MEeyPPqh6VCjJrQ" name="FiguraGeometrica_LPR" method="_AALMxI9NEeyPPqh6VCjJrQ">
+        <eAnnotations xmi:id="___mlAo9MEeyPPqh6VCjJrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="___mlA49MEeyPPqh6VCjJrQ" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="___mlAY9MEeyPPqh6VCjJrQ" name="tipoFigura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="___mlBI9MEeyPPqh6VCjJrQ" type="___lW4I9MEeyPPqh6VCjJrQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="___nMEI9MEeyPPqh6VCjJrQ" name="area" isAbstract="true">
+        <ownedParameter xmi:id="___nMEY9MEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="___nMEo9MEeyPPqh6VCjJrQ" name="perimetro" isAbstract="true">
+        <ownedParameter xmi:id="___nME49MEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="___nzII9MEeyPPqh6VCjJrQ" name="getTipoFigura" method="_AALz0I9NEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="___nzIY9MEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="___oaMI9MEeyPPqh6VCjJrQ" name="setTipoFigura" method="_AALz0o9NEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="___oaMY9MEeyPPqh6VCjJrQ" name="tipoFigura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="___oaMo9MEeyPPqh6VCjJrQ" name="semiPerimetro" method="_AALz1I9NEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="___pBQI9MEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="___poUI9MEeyPPqh6VCjJrQ" name="Rectangulo_LPR">
+      <ownedComment xmi:id="_AAOQEI9NEeyPPqh6VCjJrQ">
+        <body>*&#xD;
+@author Luis Peñalver Romero&#xD;
+@version 1.2&#xD;
+ *</body>
+      </ownedComment>
+      <generalization xmi:id="_AAD4AI9NEeyPPqh6VCjJrQ" general="___lW4I9MEeyPPqh6VCjJrQ"/>
+      <ownedAttribute xmi:id="_AAIJcI9NEeyPPqh6VCjJrQ" name="l1" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AAIJco9NEeyPPqh6VCjJrQ" name="l2" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AAMa4I9NEeyPPqh6VCjJrQ" name="Rectangulo_LPR" specification="___qPYI9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AAMa4Y9NEeyPPqh6VCjJrQ" name="tipoFigura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AAMa4o9NEeyPPqh6VCjJrQ" name="lG">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AAMa449NEeyPPqh6VCjJrQ" name="lP">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AAMa5I9NEeyPPqh6VCjJrQ" type="___poUI9MEeyPPqh6VCjJrQ" direction="return"/>
+        <language>java</language>
+        <body>super(tipoFigura);&#xD;
+		l1 = lG;&#xD;
+		l2 = lP;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AAMa5Y9NEeyPPqh6VCjJrQ" name="area" specification="___q2dY9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AAMa5o9NEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return l1 * l2;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AAMa549NEeyPPqh6VCjJrQ" name="perimetro" specification="___sEk49MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AAMa6I9NEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (2 * l1) + (2 * l2);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="___qPYI9MEeyPPqh6VCjJrQ" name="Rectangulo_LPR" method="_AAMa4I9NEeyPPqh6VCjJrQ">
+        <eAnnotations xmi:id="___q2co9MEeyPPqh6VCjJrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="___q2c49MEeyPPqh6VCjJrQ" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_AAOQEY9NEeyPPqh6VCjJrQ">
+          <body>&#xD;
+	 * @param tipoFigura&#xD;
+	 * @param lG&#xD;
+	 * @param lP</body>
+        </ownedComment>
+        <ownedParameter xmi:id="___qPYY9MEeyPPqh6VCjJrQ" name="tipoFigura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="___q2cI9MEeyPPqh6VCjJrQ" name="lG">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="___q2cY9MEeyPPqh6VCjJrQ" name="lP">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="___q2dI9MEeyPPqh6VCjJrQ" type="___poUI9MEeyPPqh6VCjJrQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="___q2dY9MEeyPPqh6VCjJrQ" name="area" method="_AAMa5Y9NEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="___rdgI9MEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="___sEk49MEeyPPqh6VCjJrQ" name="perimetro" method="_AAMa549NEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="___sroI9MEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="___t5wI9MEeyPPqh6VCjJrQ" name="Triangulo_LPR">
+      <generalization xmi:id="_AAEfEI9NEeyPPqh6VCjJrQ" general="___lW4I9MEeyPPqh6VCjJrQ"/>
+      <ownedAttribute xmi:id="_AAIwgY9NEeyPPqh6VCjJrQ" name="lado1" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AAJXkY9NEeyPPqh6VCjJrQ" name="lado2" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AAJ-oI9NEeyPPqh6VCjJrQ" name="lado3" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AANB8I9NEeyPPqh6VCjJrQ" name="Triangulo_LPR" specification="___vH4I9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AANB8Y9NEeyPPqh6VCjJrQ" name="tipoFigura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AANB8o9NEeyPPqh6VCjJrQ" name="lado1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AANB849NEeyPPqh6VCjJrQ" name="lado2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AANB9I9NEeyPPqh6VCjJrQ" name="lado3">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AANB9Y9NEeyPPqh6VCjJrQ" type="___t5wI9MEeyPPqh6VCjJrQ" direction="return"/>
+        <language>java</language>
+        <body>super(tipoFigura);&#xD;
+		lado1 = lado1;&#xD;
+		lado2 = lado2;&#xD;
+		lado3 = lado3;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AANB9o9NEeyPPqh6VCjJrQ" name="perimetro" specification="___vu9Y9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AANB949NEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return lado1 + lado2 + lado3;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AANpAI9NEeyPPqh6VCjJrQ" name="area" specification="___w9Eo9MEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="_AANpAY9NEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>double sp;&#xD;
+		sp = this.semiPerimetro();&#xD;
+		return Math.sqrt(sp * (sp-lado1) * (sp-lado2) * (sp-lado3));&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="___vH4I9MEeyPPqh6VCjJrQ" name="Triangulo_LPR" method="_AANB8I9NEeyPPqh6VCjJrQ">
+        <eAnnotations xmi:id="___vu8o9MEeyPPqh6VCjJrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="___vu849MEeyPPqh6VCjJrQ" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="___vH4Y9MEeyPPqh6VCjJrQ" name="tipoFigura">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="___vH4o9MEeyPPqh6VCjJrQ" name="lado1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="___vu8I9MEeyPPqh6VCjJrQ" name="lado2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="___vu8Y9MEeyPPqh6VCjJrQ" name="lado3">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="___vu9I9MEeyPPqh6VCjJrQ" type="___t5wI9MEeyPPqh6VCjJrQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="___vu9Y9MEeyPPqh6VCjJrQ" name="perimetro" method="_AANB9o9NEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="___wWAI9MEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="___w9Eo9MEeyPPqh6VCjJrQ" name="area" method="_AANpAI9NEeyPPqh6VCjJrQ">
+        <ownedParameter xmi:id="___xkII9MEeyPPqh6VCjJrQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="__6LScI9MEeyPPqh6VCjJrQ">
+      <eAnnotations xmi:id="__6LScY9MEeyPPqh6VCjJrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="__6L5gI9MEeyPPqh6VCjJrQ" base_Package="__z-j0I9MEeyPPqh6VCjJrQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="___jhsI9MEeyPPqh6VCjJrQ" base_Element="___i6oI9MEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:Annotations xmi:id="___jhsY9MEeyPPqh6VCjJrQ" base_Element="___i6oI9MEeyPPqh6VCjJrQ">
+    <annotations xmi:id="___jhso9MEeyPPqh6VCjJrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="___kIwo9MEeyPPqh6VCjJrQ" base_Element="___kIwI9MEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:Annotations xmi:id="___kv0I9MEeyPPqh6VCjJrQ" base_Element="___kIwI9MEeyPPqh6VCjJrQ">
+    <annotations xmi:id="___kv0Y9MEeyPPqh6VCjJrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="___sEkI9MEeyPPqh6VCjJrQ" base_Element="___q2dY9MEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:Annotations xmi:id="___sEkY9MEeyPPqh6VCjJrQ" base_Element="___q2dY9MEeyPPqh6VCjJrQ">
+    <annotations xmi:id="___sEko9MEeyPPqh6VCjJrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="___sroY9MEeyPPqh6VCjJrQ" base_Element="___sEk49MEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:Annotations xmi:id="___tSsI9MEeyPPqh6VCjJrQ" base_Element="___sEk49MEeyPPqh6VCjJrQ">
+    <annotations xmi:id="___tSsY9MEeyPPqh6VCjJrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="___wWAY9MEeyPPqh6VCjJrQ" base_Element="___vu9Y9MEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:Annotations xmi:id="___w9EI9MEeyPPqh6VCjJrQ" base_Element="___vu9Y9MEeyPPqh6VCjJrQ">
+    <annotations xmi:id="___w9EY9MEeyPPqh6VCjJrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="___xkIY9MEeyPPqh6VCjJrQ" base_Element="___w9Eo9MEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:Annotations xmi:id="___xkIo9MEeyPPqh6VCjJrQ" base_Element="___w9Eo9MEeyPPqh6VCjJrQ">
+    <annotations xmi:id="___xkI49MEeyPPqh6VCjJrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AAGUQI9NEeyPPqh6VCjJrQ" base_Element="_AAFtMI9NEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AAHiYI9NEeyPPqh6VCjJrQ" base_Element="_AAG7UY9NEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AAIJcY9NEeyPPqh6VCjJrQ" base_Element="_AAIJcI9NEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AAIwgI9NEeyPPqh6VCjJrQ" base_Element="_AAIJco9NEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AAJXkI9NEeyPPqh6VCjJrQ" base_Element="_AAIwgY9NEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AAJXko9NEeyPPqh6VCjJrQ" base_Element="_AAJXkY9NEeyPPqh6VCjJrQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AAJ-oY9NEeyPPqh6VCjJrQ" base_Element="_AAJ-oI9NEeyPPqh6VCjJrQ"/>
+</xmi:XMI>
